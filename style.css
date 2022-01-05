@@ -1,0 +1,122 @@
+body{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-weight: 100;
+}
+.banner-container{
+    display: flex;
+    
+}
+.upper-banner{
+    
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.upper-banner-style{
+    width: 40%;
+    padding-left: 5%;
+    margin: 5%;
+    
+}
+.upper-banner-style img{
+    width: 100%;
+}
+.hire-me{
+    color: wheat;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 2px solid black;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 4px;
+}
+.middle-banner{
+    
+    padding-left: 5%;
+    
+    background-image:url(images/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position:right;
+
+
+}
+.middle-banner img{
+    width: 80%;
+    padding-right: 5%;
+}
+.dream{
+    width: 60%;
+    margin-right: 5%;
+}
+
+.web-dev{
+    width: 40%;
+    padding-left: 10%;
+    margin: 5%;
+    box-shadow: 5px 7px 40px gray;
+    padding: 10px;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#web{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(190, 32, 15),rgb(156, 134, 130));
+    border-image-slice: 1;
+}
+/* .experiecne-banner div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+} */
+
+#exp{
+    color: greenyellow;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 39.5%;
+    padding-right: 41%;
+    overflow: hidden;
+    /* background-image: repeating-linear-gradient(); */
+    background-image: url(white,orange);
+    position: fixed;
+    background-color: grey;
+    
+
+    
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: rgb(184, 57, 57);
+  }
